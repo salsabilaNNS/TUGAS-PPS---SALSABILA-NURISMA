@@ -1,0 +1,84 @@
+.register-container {
+    max-width: 800px; /* Perbesar lebar container */
+    margin: 50px auto; /* Agar container berada di tengah */
+    padding: 30px; /* Tambahkan padding untuk kenyamanan */
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Ubah menjadi kiri untuk form */
+    
+}
+
+.register-container h2 {
+    font-size: 34px;
+    margin-bottom: 20px;
+    color: #F8981D; /* Warna oranye sesuai tema */
+    font-weight: bold;
+    text-align: center; /* Heading tetap di tengah */
+}
+
+body {
+    background: linear-gradient(to right, #fdbb2d, #f8981d);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-container form {
+    margin-top: 20px;
+}
+
+.register-container .form-control {
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.register-container .form-label {
+    font-size: 14px;
+    color: #555;
+    text-align: left;
+}
+
+.register-container button[type="submit"] {
+    background-color: #F8981D; /* Warna oranye */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.register-container button[type="submit"]:hover {
+    background-color: #e57a00; /* Warna oranye lebih gelap */
+}
+
+.error-message {
+    font-size: 14px;
+    margin-top: 10px;
+    color: red;
+}
+
+.success-message {
+    font-size: 14px;
+    margin-top: 10px;
+    color: green;
+}
+
+/* Latar belakang */
+body {
+    background: linear-gradient(to right, #fdbb2d, #f8981d);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

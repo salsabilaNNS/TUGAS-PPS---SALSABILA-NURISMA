@@ -1,0 +1,120 @@
+/* Tata letak utama */
+.login-wrapper {
+  display: flex;
+  justify-content: center; /* Mengatur ke tengah secara horizontal */
+  align-items: center;    /* Mengatur ke tengah secara vertikal */
+  min-height: 100vh;
+  background-color: #ffa726;
+  font-family: Arial, sans-serif;
+  padding: 0; /* Hapus padding tambahan */
+  margin: 0; /* Pastikan tidak ada margin pada halaman */
+  box-sizing: border-box; /* Pastikan ukuran tetap dalam kontainer */
+}
+
+/* Container form login */
+.login-form-container {
+  display: flex;
+  flex-direction: row; /* Atur posisi gambar dan form secara horizontal */
+  align-items: center; /* Ratakan gambar dan form di tengah vertikal */
+  justify-content: center; /* Ratakan seluruh elemen di tengah horizontal */
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 400px; /* Perbesar ukuran kontainer */
+  max-width: 800px; /* Pastikan tetap responsif */
+  gap: 2rem; /* Perbesar jarak antar elemen */
+  padding: 2rem; /* Tambahkan ruang di dalam kontainer */
+  height: 630px; /* Sesuaikan tinggi */
+}
+
+/* Konten login */
+.login-content {
+  flex: 1;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Konten dalam form berada di tengah vertikal */
+  align-items: center; /* Ratakan semua elemen ke tengah horizontal */
+  text-align: center; /* Seluruh teks di tengah */
+}
+
+.login-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0.2rem;
+  margin-top: 1rem;
+  font-display: #3f3125;
+}
+
+.login-subtitle {
+  font-size: 18px;
+  color: #0f0f0f;
+  margin-bottom: 1rem;
+  font-display: #3f3125
+}
+
+/* Input form */
+form .form-control {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  width: 100%; /* Sesuaikan dengan lebar container form */
+  max-width: 300px; /* Batasi lebar input */
+}
+
+form .form-label {
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-align: left; /* Label tetap rata kiri */
+  width: 100%;
+}
+
+.login-button {
+  background: #ffa726;
+  border: none;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  max-width: 300px; /* Batasi lebar tombol */
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.login-button:hover {
+  background: #fb8c00;
+}
+
+.forgot-password {
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
+
+/* Gambar */
+.login-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-image img {
+ /* Gambar */
+.login-image img {
+  width: auto; /* Pastikan lebar otomatis sesuai proporsi */
+  max-width: 200px; /* Batas maksimal lebar gambar */
+  height: auto; /* Sesuaikan tinggi gambar secara proporsional */
+  border-radius: 10px; /* Opsional: untuk membuat sudut gambar melengkung */
+  object-fit: contain; /* Pastikan gambar tidak terdistorsi */
+  margin: 1rem; /* Tambahkan jarak agar terlihat lebih seimbang */
+  
+}
+
+}

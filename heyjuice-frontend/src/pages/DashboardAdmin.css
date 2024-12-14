@@ -1,0 +1,59 @@
+/* Navbar styling */
+.custom-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #3f3125; /* Warna gelap */
+    z-index: 1000; /* Di atas elemen lain */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px 0;
+  }
+  
+  /* Container untuk isi navbar */
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Brand teks */
+  .navbar-brand {
+    color: #ffffff !important;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  /* Link di navbar */
+  .custom-nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-link {
+    color: #ffffff !important;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Tombol Logout */
+  .nav-logout {
+    background: none;
+    border: none;
+    color: #ffffff !important;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .nav-logout:hover {
+    text-decoration: underline;
+  }
